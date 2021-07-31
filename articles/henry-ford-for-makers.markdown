@@ -13,6 +13,7 @@ Our clothing, our food, our household furnishings—all could be
 much simpler than they now are and at the same time be better looking.
 
 ## Work/Money
+
 > Thinking first of money instead of work brings on fear of failure
 and this fear blocks every avenue of business—it makes a man afraid
 of competition, of changing his methods, or of doing anything which

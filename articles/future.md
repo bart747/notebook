@@ -1,4 +1,4 @@
-# How Not to Be Afraid of the Future: Web Development and Lindy Effect
+# Kinda Predicting the Future: the Internet and the Lindy Effect
 
 No one really knows the future,
 but there are some pretty clear patterns worth exploring. 
