@@ -1,7 +1,7 @@
-# Font settings in Linux distros suck – write your own `font.conf`
+# Font Settings in Linux Distros Suck – Write Your Own *font.conf*
 
-- You can write your own font configuration file,
-  `fonts.conf`, and change default settings.
+- You can write your own font configuration file —
+  `fonts.conf` — and change default settings.
 - You can also use it to specify what fonts will be rendered at websites.
 - Store `fonts.conf` at `$XDG_CONFIG_HOME/fontconfig/`,
   which probably means `$HOME/.config/fontconfig/`.
@@ -66,7 +66,7 @@ Serif:
 - [Merriweather](https://fonts.google.com/specimen/Merriweather)
 - [IBM Plex Serif](https://github.com/IBM/plex)
 
-BTW, *Ubuntu* (obviously common preinstalled typeface) is a good UI font.
+BTW, *Ubuntu* (obviously common pre-installed typeface) is a good UI font.
 The problem is that it looks “original”,
 so it shouldn't serve as a default sans-serif
 that will be used in a browser.
@@ -154,9 +154,10 @@ This one, not necessarily:
 It will work only if there's no *Times New Roman* in your system.
 
 ## Quick sum-up
+
 - Store your fonts at `$HOME/.local/share/fonts` or `/usr/local/share/fonts`
 - Configuration stuff write into `$XDG_CONFIG_HOME/fontconfig/fonts.conf`
   file. (`$XDG_CONFIG_HOME` most likely means `$HOME/.config/`.)
-- Use fonts made for screens that look clean and standard — you need **predictable
+- Use fonts that look clean and standard — you need **predictable
   behavior**.
 
