@@ -20,11 +20,11 @@ which often don't look good on a page made with something else in mind.
 
 To give you a better example, I picked some common settings from the Web:
 
-- *Arial, sans-serif*
+- `Arial, sans-serif`
   — used at google.com.
-- *-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif*
+- `-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif`
   — at GitHub.
-- *-apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif*
+- `-apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif`
   — at StackOverflow.
 
 Pretty safe bets, but I don't think *GitHub* or *StackOverflow*
@@ -99,20 +99,28 @@ a library for system-wide font configuration.
 
 <!-- If you don't want something, use something else instead -->
 <match target="pattern">
-  <test qual="any" name="family"><string>Arial</string></test>
-  <edit name="family" mode="assign" binding="same"><string>Roboto</string></edit>
+  <test qual="any" name="family">
+    <string>Arial</string>
+  </test>
+  <edit name="family" mode="assign" binding="same">
+    <string>Roboto</string>
+  </edit>
 </match>
 <match target="pattern">
-  <test qual="any" name="family"><string>Segoe UI</string></test>
-  <edit name="family" mode="assign" binding="same"><string>Roboto</string></edit>
+  <test qual="any" name="family">
+    <string>Georgia</string>
+  </test>
+  <edit name="family" mode="assign" binding="same">
+    <string>IBM Plex Serif</string>
+  </edit>
 </match>
 <match target="pattern">
-  <test qual="any" name="family"><string>Georgia</string></test>
-  <edit name="family" mode="assign" binding="same"><string>IBM Plex Serif</string></edit>
-</match>
-<match target="pattern">
-  <test qual="any" name="family"><string>Times New Roman</string></test>
-  <edit name="family" mode="assign" binding="same"><string>IBM Plex Serif</string></edit>
+  <test qual="any" name="family">
+    <string>Times New Roman</string>
+  </test>
+  <edit name="family" mode="assign" binding="same">
+    <string>IBM Plex Serif</string>
+  </edit>
 </match>
 </fontconfig>
 ```
