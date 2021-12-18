@@ -71,7 +71,7 @@ The problem is that it looks “original”,
 so it shouldn't serve as a default sans-serif
 that will be used in a browser.
 
-# Configuration File
+## Configuration File
 
 Here's an exemplary *font.conf* file content.
 It uses [Fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/),
