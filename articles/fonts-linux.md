@@ -2,8 +2,7 @@
 
 - You can write your own font configuration file,
   `fonts.conf`, and change default settings.
-- You can also use it to specify what fonts will be rendered
-	at websites.
+- You can also use it to specify what fonts will be rendered at websites.
 - Store `fonts.conf` at `$XDG_CONFIG_HOME/fontconfig/`,
   which probably means `$HOME/.config/fontconfig/`.
 - Common places for storing fonts in Linux systems are
@@ -22,24 +21,28 @@ which often don't look good on a page made with something else in mind.
 To give you a better example, I picked some common settings from the Web:
 
 - *Arial, sans-serif*
-	— used at google.com.
+  — used at google.com.
 - *-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif*
-	— at GitHub.
-- *-apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif* 				— at StackOverflow.
+  — at GitHub.
+- *-apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif*
+  — at StackOverflow.
 
 Pretty safe bets, but I don't think *GitHub* or *StackOverflow*
 fonts are all same quality and look.
-A typical Linux system will most likely select its default *sans-serif* in those cases. It will work OK, but might not be what you want aesthetically.
+A typical Linux system will most likely select its default *sans-serif*
+in those cases.
+It will work OK, but might not be what you want aesthetically.
 
 But it is Linux, so you can change that.
 
 ## Picking a Typeface
- 
+
 There are **good, free and open source** typefaces that
 blend better in the web context than many default choices.
 
-It's good to pick the ones that look clean and familiar. 
-The main goals for your default serif and sans-serif are legibility and predictable behavior, than style. 
+It's good to pick the ones that look clean and familiar.
+The main goals for your default serif and sans-serif are
+legibility and predictable behavior, than style.
 
 Test them in real context — a navigation bar is a different beast than body text.
 
@@ -82,16 +85,16 @@ a library for system-wide font configuration.
 
 <!-- basic aliases -->
 <alias>
-	<family>sans-serif</family>
-	<prefer><family>Roboto</family></prefer>
+  <family>sans-serif</family>
+  <prefer><family>Roboto</family></prefer>
 </alias>
 <alias>
-	<family>serif</family>
-	<prefer><family>IBM Plex Serif</family></prefer>
+  <family>serif</family>
+  <prefer><family>IBM Plex Serif</family></prefer>
 </alias>
 <alias>
-	<family>monospace</family>
-	<prefer><family>IBM Plex Mono</family></prefer>
+  <family>monospace</family>
+  <prefer><family>IBM Plex Mono</family></prefer>
 </alias>
 
 <!-- If you don't want something, use something else instead -->
@@ -123,16 +126,17 @@ Need more info?
 
 - [Official documentation](https://www.freedesktop.org/software/fontconfig/fontconfig-user.html).
 - [ArchLinux docs](https://wiki.archlinux.org/title/font_configuration)
-	have good tips too.
+  have good tips too.
 
 ## Potential Problem
 
-This piece of code will cause replacement of *Times New Roman* for *Merriweather*:
+This piece of code will cause replacement of *Times New Roman*
+for *Merriweather*:
 
 ```
 <match target="pattern">
-	<test qual="any" name="family"><string>Times New Roman</string></test>
-	<edit name="family" mode="assign" binding="same"><string>Merriweather</string></edit>
+  <test qual="any" name="family"><string>Times New Roman</string></test>
+  <edit name="family" mode="assign" binding="same"><string>Merriweather</string></edit>
 </match>
 ```
 
@@ -140,13 +144,13 @@ This one, not necessarily:
 
 ```
 <alias>
-    <family>Times New Roman</family>
-    <prefer>
-        <family>Merriweather</family>
-    </prefer>
+  <family>Times New Roman</family>
+  <prefer>
+    <family>Merriweather</family>
+  </prefer>
 </alias>
 ```
- 
+
 It will work only if there's no *Times New Roman* in your system.
 
 ## Quick sum-up
@@ -155,3 +159,4 @@ It will work only if there's no *Times New Roman* in your system.
   file. (`$XDG_CONFIG_HOME` most likely means `$HOME/.config/`.)
 - Use fonts made for screens that look clean and standard — you need **predictable
   behavior**.
+
