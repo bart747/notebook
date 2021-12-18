@@ -143,8 +143,12 @@ for *Merriweather*:
 
 ```
 <match target="pattern">
-  <test qual="any" name="family"><string>Times New Roman</string></test>
-  <edit name="family" mode="assign" binding="same"><string>Merriweather</string></edit>
+  <test qual="any" name="family">
+    <string>Times New Roman</string>
+  </test>
+  <edit name="family" mode="assign" binding="same">
+    <string>Merriweather</string>
+  </edit>
 </match>
 ```
 
