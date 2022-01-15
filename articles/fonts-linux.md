@@ -2,7 +2,7 @@
 
 - You can write your own font configuration file —
   `fonts.conf` — and change default settings.
-- You can also use it to specify what fonts will be rendered at websites.
+- You can also use it to specify what fonts will be rendered on websites.
 - Store `fonts.conf` at `$XDG_CONFIG_HOME/fontconfig/`,
   which probably means `$HOME/.config/fontconfig/`.
 - Common places for storing fonts in Linux systems are
@@ -12,7 +12,7 @@
 
 When you're visiting a website with *font-face* configured as
 *serif* or *sans-serif*, or more specifically, *Helvetica, Arial*,
-you can see one of the Linux world not-so-good sides.
+you can see one of the Linux world's not-so-good sides.
 Your visual experience is likely worst than those who actually can
 see *Helvetica* or even *Arial*.
 You probably got something like *Liberation Sans*, *DejaVu Sans*, or *Ubuntu*,
@@ -37,14 +37,14 @@ But it is Linux, so you can change that.
 
 ## Picking a Typeface
 
-There are **good, free and open source** typefaces that
+There are **good, free, and open-source** typefaces that
 blend better in the web context than many default choices.
 
 It's good to pick the ones that look clean and familiar.
 The main goals for your default serif and sans-serif are
-legibility and predictable behavior, than style.
+legibility and predictable behavior, then style.
 
-Test them in real context — a navigation bar is a different beast than body text.
+Test them in a real context — a navigation bar is a different beast than body text.
 
 Put your downloaded fonts into one of those places:
 
@@ -171,6 +171,5 @@ It will work only if there's no *Times New Roman* in your system.
 - Configuration stuff write into `$XDG_CONFIG_HOME/fontconfig/fonts.conf`
   file. (`$XDG_CONFIG_HOME` most likely means `$HOME/.config/`.)
 - Use fonts that look clean and standard — you need **predictable
-  behavior**.
 
-`18-12-2021`
+`2021-12-18`

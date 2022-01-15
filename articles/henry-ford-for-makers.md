@@ -51,7 +51,7 @@ Sometimes wooden models are constructed or again the parts are drawn
 to full size on a blackboard. We are not bound by precedent but we
 leave nothing to luck.
 
-## <s>Common Knowledge</s>
+## Common Knowledge
 
 > If ever I wanted to kill opposition by unfair means I would endow
 the opposition with experts.

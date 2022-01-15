@@ -1,18 +1,18 @@
 # Old Programming Wisdom Beats Crowdsourced Advice
 
-People find safety in following popular opinions. They see it as something of high value — worth sacrificing trust in their own instincts.
-This is why I like to look for advice by turning to individuals who achieved something worth admiring and
-show signs of independent thinking.
+People find safety in following popular opinions. They see it as something of high value — worth sacrificing trust in their instincts.
+This is why I like to look for advice by turning to individuals who
+show signs of independent thinking and achieved something worth admiring.
 
 My default attitude towards something that helps in groupthink, like forums and comment threads, is perceiving it as a waste of time. However, StackOverflow surprised me. I also remember finding some useful discussions on Reddit. But these are exceptions. **Personal** blogs and vlogs, or essay collections like
 [paulgraham.com](http://www.paulgraham.com), are still my favorite mediums.
 
-Being **good at avoiding groupthink**, which includes so called “industry standards,” is on point.
+Being **good at avoiding groupthink**, which includes so-called “industry standards,” is on point.
 An average set of methods of the top 50% of professionals is a way different thing than what you get by analyzing how the top 10% operates.
 When someone starts advising you with, “today, most people,” don't expect a productive discussion.
 
-Below is a couple of quotes of people who did something right and we can learn from.
-It's not a kind of content you see often. There are many programs written in contradiction to these ideas.
+Below is a couple of quotes of people who did something right and we can learn from them.
+It's not the kind of content you see often. There are many programs written in contradiction to these ideas.
 (Note: it's not a top-list.)
 
 <br>
