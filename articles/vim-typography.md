@@ -1,7 +1,7 @@
 # Vim Typography: Better Readability and Look
 
 A few tricks to improve your Vim editor's readability and theming.
-All examples are for editing ``.vimrc` and `.gvimrc` files.
+All examples are for editing `.vimrc` and `.gvimrc` files.
 
 `.gvimrc` is for GUI specific commands.
 For instance, you should use it for things that you want to see in gVim or MacVim

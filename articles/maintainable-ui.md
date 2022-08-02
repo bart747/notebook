@@ -29,7 +29,7 @@ $large-font-size:  21px;
 $small-font-size:  16px;
 $base-line-height: 1.6;
 
-// breakepoints
+// breakpoints
 $sm:               568px;
 $md:               768px;
 $lg:               1024px;
@@ -45,7 +45,6 @@ But hey, not all colors are equal. And when it comes to sizes, we can get much m
 $base-family:           "Source Sans Pro", sans-serif;
 $mono-family:           "Droid Sans Mono", monospace;
 
-
 // COLORS
 
 // base
@@ -57,7 +56,6 @@ $green:            #22ff33;
 // branding
 $brand-blue:       $blue;
 $brand-gold:       #e5b23b;
-
 
 // SIZES
 
@@ -72,8 +70,7 @@ $extra-fonts-size: 28px;
 // rhythm unit (leading)
 $u:                1rem * $base-line-height;
 
-
-// BREAKEPOINTS
+// BREAKPOINTS
 $sm:               568px;
 $md:               768px;
 $lg:               1024px;
@@ -90,7 +87,6 @@ it will prevent misalignment.
 Just use it to set up margins and padding.
 If there's a headline that's bigger than basic font size,
 fit it into a line-hight that equals one $u.
-
 
 ## Mixins and Functions
 
@@ -156,7 +152,6 @@ If you have a lot of well organized small ones you know where to go:
 - footer
 - logo
 
-
 ## Helpers
 
 It's good to have a <code>helpers.scss</code> file. It's a place to store classes and mixins like:
@@ -168,7 +163,6 @@ It's good to have a <code>helpers.scss</code> file. It's a place to store classe
 - @mixin center
 
 Little and handy stuff.
-
 
 ## Conventions and Rules
 
@@ -195,6 +189,7 @@ Mod classes are something like this: <code>.photo-big,
 That way your UI is more predictable for users and yourself.
 
 ### More on Typography
+
 I like to limit myself to 3 font sizes.
 
 1. There's a basic size.
@@ -210,12 +205,14 @@ Visual identity stuff is done mostly with colors, weights and placement.
 Look at UIs of Twitter, Google search results and GitHub profiles. How many font sizes and families do you see at a glance?
 
 ## Stay Small
+
 One of the biggest factors of maintainability is codebase size itself.
 More code, more problems.
 It's good to think about how particular element is useful.
 Does it pay for itself?
 
 ## You Don't Know the Future
+
 Maybe something complex will need to be modified.
 Maybe your thing is not so great in some situations.
 Maybe you won't remember how you figured it out.
