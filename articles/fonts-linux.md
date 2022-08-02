@@ -169,6 +169,6 @@ It will work only if there's no *Times New Roman* in your system.
 - Store your fonts at `$HOME/.local/share/fonts` or `/usr/local/share/fonts`
 - Configuration stuff write into `$XDG_CONFIG_HOME/fontconfig/fonts.conf`
   file. (`$XDG_CONFIG_HOME` most likely means `$HOME/.config/`.)
-- Use fonts that look clean and standard — you need **predictable behavior**
+- Use fonts that look clean and standard — you need **predictable behavior**.
 
 `2021-12-18`
